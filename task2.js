@@ -31,19 +31,19 @@ async function checkweather(city) {
     wind.innerHTML = `${weather_data.wind.speed}km/h`;
     switch (weather_data.weather[0].main) {
         case 'Clouds':
-            img.src = "./imgsrc/cloud.png";
+            img.src = "./cloud.png";
             break;
         case 'Clear':
-            img.src = "./imgsrc/clear.png";
+            img.src = "./clear.png";
             break;
         case 'Rain':
-            img.src = "./imgsrc/rain.png";
+            img.src = "./rain.png";
             break;
         case 'Smoke':
-            img.src = "./imgsrc/snow.png";
+            img.src = "./snow.png";
             break;
         case 'Haze':
-            img.src = "./imgsrc/haze.png";
+            img.src = "./haze.png";
           break;
     }
 
