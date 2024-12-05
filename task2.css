@@ -15,7 +15,7 @@ body{
 }
 .header{
 
-    background-image: url("./imgsrc/pexels-ironic-695657.jpg");
+    background-image: url("./pexels-ironic-695657.jpg");
     width: 50vh;
     height:65vh;
     margin-top: 5%;
@@ -154,7 +154,7 @@ body{
 {
     .header{
 
-        background-image: url("./imgsrc/pexels-ironic-695657.jpg");
+        background-image: url("./pexels-ironic-695657.jpg");
         width: 43vh;
         height:65vh;
         margin-top: 5%;
