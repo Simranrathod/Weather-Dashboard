@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task2.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="search-box">
+            <input class="search" type="text" placeholder="Enter Your City">
+            <button id="searchbtn" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div id="notfound">
+            <h2>OOPS, location not found </h2>
+            <img id="imgnotfound" width="95%" src="./imgsrc/location not found.webp" alt="">
+        </div>
+        <div id="body">
+            <div id="second">
+                <div id="weather">
+                    <img class="Weather-img" width="60%" src="./imgsrc/clear.png" alt="Weather image">
+                </div>
+                <div id="temp">
+                    <p id="temp1">0 <sup>°C</sup></p>
+                    <p id="temp2">Light Rain</p>
+
+                </div>
+            </div>
+            <div id="details">
+                <div id="human">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="humadity">45%</span>
+                    <p>Humidity</p>
+                </div>
+                <div id="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span id="windspeed">12km</span>
+                    <p>wind speed</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+   <script src="task2.js"></script>
+
+</html>
